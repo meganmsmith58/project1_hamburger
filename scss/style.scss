@@ -1,0 +1,93 @@
+$darkgrey: #2B3A42;
+$medgrey: #3F5866;
+$lightgrey: #BDD3DE;
+$beige: #F0F0DF;
+$orange: #FF8F00;
+
+@mixin imagescroll {
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+  height: 100%;
+}
+
+
+.logoimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+
+  .fab {
+    padding: 10px;
+  }
+  .nav-link:hover {
+    color: purple;
+  }
+}
+.navback {
+  background-color: #F7F7F7;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: $darkgrey;
+}
+.logocropped {
+  height: 30px;
+}
+.paraback1 {
+  @include imagescroll;
+  background-image: url('../burger-hero.jpg');
+}
+
+.slogan {
+  font-family: 'Krub', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: $medgrey
+}
+
+.content-container {
+  padding: 20px;
+
+  .body {
+    font-family: 'Krub', sans-serif;
+    color: $medgrey;
+  }
+
+  .p1 {
+    color: $darkgrey;
+    font-weight: bold;
+  }
+
+  .p3 {
+    color: $orange;
+    font-weight: bold;
+  }
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.subscribebtn {
+  background-color: $medgrey;
+  border: none;
+}
+.subscribebtn:hover {
+  background-color: $orange;
+}
+
+@import 'menu';
+@import 'locations';
+@import 'jobs';
+@import 'faq';

@@ -1,0 +1,71 @@
+html {
+  height: 100%; }
+
+.logoimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px; }
+
+.navbar {
+  position: fixed;
+  width: 100%; }
+  .navbar .fab {
+    padding: 10px; }
+  .navbar .nav-link:hover {
+    color: purple; }
+
+.navback {
+  background-color: #F7F7F7; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #2B3A42; }
+
+.logocropped {
+  height: 30px; }
+
+.paraback1 {
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../burger-hero.jpg"); }
+
+.slogan {
+  font-family: 'Krub', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #3F5866; }
+
+.content-container {
+  padding: 20px; }
+  .content-container .body {
+    font-family: 'Krub', sans-serif;
+    color: #3F5866; }
+  .content-container .p1 {
+    color: #2B3A42;
+    font-weight: bold; }
+  .content-container .p3 {
+    color: #FF8F00;
+    font-weight: bold; }
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.subscribebtn {
+  background-color: #3F5866;
+  border: none; }
+
+.subscribebtn:hover {
+  background-color: #FF8F00; }
+
+.menucontainer {
+  padding: 20px; }
+  .menucontainer .menu-title {
+    font-size: 50px;
+    font-family: "Krub", sans-serif;
+    margin-top: 20px; }
