@@ -70,5 +70,8 @@ html {
     font-family: "Krub", sans-serif;
     margin-top: 20px; }
 
+ul {
+  list-style-type: none; }
+
 .job-form {
   display: block; }
