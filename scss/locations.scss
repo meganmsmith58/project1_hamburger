@@ -3,3 +3,24 @@ $medgrey: #3F5866;
 $lightgrey: #BDD3DE;
 $beige: #F0F0DF;
 $orange: #FF8F00;
+
+html, body {
+  width: 100%;
+}
+.middle-map {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.map-section {
+  width: 40%;
+  padding: 20px;
+
+}
+.map {
+  width: 100%;
+
+}
