@@ -3,6 +3,7 @@ $medgrey: #3F5866;
 $lightgrey: #BDD3DE;
 $beige: #F0F0DF;
 $orange: #FF8F00;
+$mainfont: 'Krub', sans-serif;
 
 @mixin imagescroll {
   min-height: 600px;
@@ -49,7 +50,7 @@ html {
 }
 
 .slogan {
-  font-family: 'Krub', sans-serif;
+  font-family: $mainfont;
   font-size: 35px;
   text-align: center;
   letter-spacing: 10px;
@@ -60,7 +61,7 @@ html {
   padding: 20px;
 
   .body {
-    font-family: 'Krub', sans-serif;
+    font-family: $mainfont;
     color: $medgrey;
   }
 
@@ -78,6 +79,7 @@ html {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 .subscribebtn {
   background-color: $medgrey;

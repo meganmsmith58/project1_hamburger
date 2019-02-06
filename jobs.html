@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -32,11 +33,11 @@
     </nav>
     <img src="logo.png" class="logoimg"/>
     <p class="slogan">
-        Best Quality Burger in Town. Off the Charts!
+        Jobs
     </p>
 </div>
 
-<div class="middle">
+<div class="middle-job">
     <p class="job-description">Join our great team!</p>
     <form class="job-form">
         <div>First Name
@@ -58,7 +59,7 @@
         </div>
         <div>
             State
-            <select>
+            <select class="states">
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
@@ -135,10 +136,18 @@
         </div>
         <div>
             Availability
-            <input type="checkbox">Daytime
-            <input type="checkbox">Evening
-            <input type="checkbox">Anytime
-
+            <label class="checkbox-container">
+                <input type="checkbox">
+                <span>Daytime</span>
+            </label>
+            <label class="checkbox-container">
+                <input type="checkbox">
+                <span>Evening</span>
+            </label>
+            <label class="checkbox-container">
+                <input type="checkbox">
+                <span>Anytime</span>
+            </label>
         </div>
         <div>
             What makes you a great fit?
@@ -148,6 +157,7 @@
 
         <input type="submit" value="Submit">
     </form>
+
 </div>
 
 <div class="bottom">

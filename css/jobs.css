@@ -1,2 +1,38 @@
-.job-form {
-  display: block; }
+.middle-job {
+  width: 50%;
+  padding: 20px;
+  background-color: #F7F7F7;
+  display: inline-block;
+  margin-left: 25%;
+  border-radius: 5px;
+  font-family: "Krub", sans-serif; }
+  .middle-job .job-description {
+    font-family: 'Staatliches', cursive;
+    color: #2B3A42;
+    font-size: 40px;
+    text-align: center; }
+  .middle-job input[type=text] {
+    width: 100%;
+    border-radius: 5px;
+    border-style: 1px solid #BDD3DE;
+    margin: 5px; }
+  .middle-job .states {
+    margin: 5px;
+    width: 100%;
+    background-color: #FFFFFF; }
+  .middle-job input[type=email] {
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: 1px solid #BDD3DE; }
+  .middle-job .checkbox-container {
+    display: block;
+    font-size: 14px; }
+  .middle-job input[type=checkbox] {
+    margin: 5px; }
+  .middle-job input[type=submit] {
+    width: 100%;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    background-color: #BDD3DE;
+    border-radius: 5px; }

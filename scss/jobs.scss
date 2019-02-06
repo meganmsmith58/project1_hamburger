@@ -3,7 +3,58 @@ $medgrey: #3F5866;
 $lightgrey: #BDD3DE;
 $beige: #F0F0DF;
 $orange: #FF8F00;
+$mainfont: 'Krub', sans-serif;
 
-.job-form {
-  display: block;
+.middle-job {
+  width: 50%;
+  padding: 20px;
+  background-color: #F7F7F7;
+  display: inline-block;
+  margin-left: 25%;
+  border-radius: 5px;
+  font-family: $mainfont;
+
+  .job-description {
+    font-family: 'Staatliches', cursive;
+    color: $darkgrey;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  input[type=text] {
+    width: 100%;
+    border-radius: 5px;
+    border-style: 1px solid $lightgrey;
+    margin: 5px;
+
+  }
+
+  .states {
+    margin: 5px;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+
+  input[type=email] {
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: 1px solid $lightgrey;
+  }
+  .checkbox-container {
+    display: block;
+    font-size: 14px;
+  }
+  input[type=checkbox] {
+    margin: 5px;
+
+  }
+
+  input[type=submit] {
+    width: 100%;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    background-color: $lightgrey;
+    border-radius: 5px;
+  }
 }
