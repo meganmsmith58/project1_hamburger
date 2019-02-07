@@ -71,7 +71,28 @@ html {
   .menucontainer .menu-title {
     font-size: 60px;
     font-family: "Staatliches", cursive;
-    margin-top: 20px; }
+    margin-top: 20px;
+    border-bottom: 1px solid #BDD3DE;
+    text-align: center; }
+  .menucontainer .menu-item {
+    border-bottom: 1px solid #BDD3DE; }
+  .menucontainer .menu-item-title {
+    font-family: "Staatliches", cursive;
+    font-size: 60px; }
+  .menucontainer .menu-item-description {
+    color: #3F5866;
+    font-family: "Krub", sans-serif;
+    font-size: 18px;
+    margin-left: 20px; }
+  .menucontainer .menu-item-name {
+    font-size: 30px; }
+    .menucontainer .menu-item-name .menu-item-price {
+      margin-left: 20px; }
+  .menucontainer .menu-item-adds {
+    font-size: 20px; }
+  .menucontainer .menu-item-toppings {
+    font-family: "Staatliches", cursive;
+    font-size: 40px; }
 
 ul {
   list-style-type: none; }
