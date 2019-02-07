@@ -4,15 +4,17 @@ $lightgrey: #BDD3DE;
 $beige: #F0F0DF;
 $orange: #FF8F00;
 $mainfont: 'Krub', sans-serif;
+$accentfont: 'Staatliches', cursive;
 
 
 .menucontainer {
   padding: 20px;
+  margin-left: 20px;
+  font-family: $mainfont;
 
   .menu-title {
-    font-size: 50px;
-    font-family: $mainfont;
-
+    font-size: 60px;
+    font-family: $accentfont;
     margin-top: 20px;
 
   }

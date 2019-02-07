@@ -65,10 +65,12 @@ html {
   background-color: #FF8F00; }
 
 .menucontainer {
-  padding: 20px; }
+  padding: 20px;
+  margin-left: 20px;
+  font-family: "Krub", sans-serif; }
   .menucontainer .menu-title {
-    font-size: 50px;
-    font-family: "Krub", sans-serif;
+    font-size: 60px;
+    font-family: "Staatliches", cursive;
     margin-top: 20px; }
 
 ul {
@@ -89,6 +91,13 @@ html, body {
 
 .map {
   width: 100%; }
+
+.jobs-header {
+  font-family: "Krub", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #3F5866; }
 
 .middle-job {
   width: 50%;
@@ -117,11 +126,15 @@ html, body {
     width: 100%;
     border-radius: 5px;
     border-style: 1px solid #BDD3DE; }
+  .middle-job .work-history {
+    font-size: 14px;
+    margin-left: 8px; }
   .middle-job .checkbox-container {
     display: block;
-    font-size: 14px; }
-  .middle-job input[type=checkbox] {
+    font-size: 14px;
     margin: 5px; }
+    .middle-job .checkbox-container input[type=checkbox] {
+      margin: 5px; }
   .middle-job input[type=submit] {
     width: 100%;
     margin-top: 20px;

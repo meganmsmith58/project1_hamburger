@@ -1,8 +1,10 @@
 .menucontainer {
-  padding: 20px; }
+  padding: 20px;
+  margin-left: 20px;
+  font-family: "Krub", sans-serif; }
   .menucontainer .menu-title {
-    font-size: 50px;
-    font-family: "Krub", sans-serif;
+    font-size: 60px;
+    font-family: "Staatliches", cursive;
     margin-top: 20px; }
 
 ul {
