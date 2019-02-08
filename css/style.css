@@ -15,7 +15,7 @@ html {
   .navbar .nav-link:hover {
     color: white;
     font-size: 20px; }
-  .navbar .link-active {
+  .navbar .active {
     font-size: 30px; }
 
 .navback {
