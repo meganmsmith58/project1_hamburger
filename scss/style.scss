@@ -14,6 +14,19 @@ $accentfont: 'Staatliches', cursive;
   background-size: cover;
 }
 
+@mixin pagetitle {
+  font-size: 60px;
+  font-family: $accentfont;
+  margin-top: 20px;
+  border-bottom: 1px solid $lightgrey;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.page-title {
+  @include pagetitle;
+}
+
 html {
   height: 100%;
 }

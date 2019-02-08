@@ -2,12 +2,6 @@
   padding: 20px;
   margin-left: 20px;
   font-family: "Krub", sans-serif; }
-  .menucontainer .menu-title {
-    font-size: 60px;
-    font-family: "Staatliches", cursive;
-    margin-top: 20px;
-    border-bottom: 1px solid #BDD3DE;
-    text-align: center; }
   .menucontainer .menu-item {
     border-bottom: 1px solid #BDD3DE; }
   .menucontainer .menu-item-title {

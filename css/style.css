@@ -1,3 +1,11 @@
+.page-title {
+  font-size: 60px;
+  font-family: "Staatliches", cursive;
+  margin-top: 20px;
+  border-bottom: 1px solid #BDD3DE;
+  text-align: center;
+  letter-spacing: 4px; }
+
 html {
   height: 100%; }
 
@@ -74,12 +82,6 @@ html {
   padding: 20px;
   margin-left: 20px;
   font-family: "Krub", sans-serif; }
-  .menucontainer .menu-title {
-    font-size: 60px;
-    font-family: "Staatliches", cursive;
-    margin-top: 20px;
-    border-bottom: 1px solid #BDD3DE;
-    text-align: center; }
   .menucontainer .menu-item {
     border-bottom: 1px solid #BDD3DE; }
   .menucontainer .menu-item-title {
@@ -144,7 +146,8 @@ html, body {
   display: inline-block;
   margin-left: 25%;
   border-radius: 5px;
-  font-family: "Krub", sans-serif; }
+  font-family: "Krub", sans-serif;
+  margin-top: 30px; }
   .middle-job .job-description {
     font-family: 'Staatliches', cursive;
     color: #2B3A42;

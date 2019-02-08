@@ -6,6 +6,8 @@ $orange: #FF8F00;
 $mainfont: 'Krub', sans-serif;
 $accentfont: 'Staatliches', cursive;
 
+
+
 .jobs-header {
   font-family: $mainfont;
   font-size: 40px;
@@ -21,6 +23,7 @@ $accentfont: 'Staatliches', cursive;
   margin-left: 25%;
   border-radius: 5px;
   font-family: $mainfont;
+  margin-top: 30px;
 
   .job-description {
     font-family: 'Staatliches', cursive;

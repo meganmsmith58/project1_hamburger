@@ -7,18 +7,12 @@ $mainfont: 'Krub', sans-serif;
 $accentfont: 'Staatliches', cursive;
 
 
+
+
 .menucontainer {
   padding: 20px;
   margin-left: 20px;
   font-family: $mainfont;
-
-  .menu-title {
-    font-size: 60px;
-    font-family: $accentfont;
-    margin-top: 20px;
-    border-bottom: 1px solid $lightgrey;
-    text-align: center;
-  }
 
   .menu-item {
     border-bottom: 1px solid $lightgrey;

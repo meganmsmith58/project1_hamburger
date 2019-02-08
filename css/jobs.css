@@ -12,7 +12,8 @@
   display: inline-block;
   margin-left: 25%;
   border-radius: 5px;
-  font-family: "Krub", sans-serif; }
+  font-family: "Krub", sans-serif;
+  margin-top: 30px; }
   .middle-job .job-description {
     font-family: 'Staatliches', cursive;
     color: #2B3A42;
