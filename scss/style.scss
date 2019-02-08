@@ -4,6 +4,7 @@ $lightgrey: #BDD3DE;
 $beige: #F0F0DF;
 $orange: #FF8F00;
 $mainfont: 'Krub', sans-serif;
+$accentfont: 'Staatliches', cursive;
 
 @mixin imagescroll {
   min-height: 600px;
@@ -22,7 +23,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 .navbar {
   position: fixed;
@@ -34,11 +35,12 @@ html {
 
   .nav-link:hover {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .active {
-    font-size: 30px;
+    font-size: 20px;
+    font-family: $accentfont;
   }
 
 
@@ -66,11 +68,13 @@ html {
 }
 
 .content-container {
-  padding: 20px;
+  padding: 30px;
 
   .body {
     font-family: $mainfont;
     color: $medgrey;
+    font-size: 30px;
+    padding: 15px;
   }
 
   .p1 {

@@ -5,7 +5,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px; }
+  padding-top: 40px; }
 
 .navbar {
   position: fixed;
@@ -14,9 +14,10 @@ html {
     padding: 10px; }
   .navbar .nav-link:hover {
     color: white;
-    font-size: 20px; }
+    font-size: 18px; }
   .navbar .active {
-    font-size: 30px; }
+    font-size: 20px;
+    font-family: "Staatliches", cursive; }
 
 .navback {
   background-color: #F7F7F7; }
@@ -43,10 +44,12 @@ html {
   color: #3F5866; }
 
 .content-container {
-  padding: 20px; }
+  padding: 30px; }
   .content-container .body {
     font-family: "Krub", sans-serif;
-    color: #3F5866; }
+    color: #3F5866;
+    font-size: 30px;
+    padding: 15px; }
   .content-container .p1 {
     color: #2B3A42;
     font-weight: bold; }
