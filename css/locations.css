@@ -12,7 +12,12 @@ html, body {
   padding: 20px; }
   .map-section .map-title {
     font-family: "Staatliches", cursive;
-    text-align: center; }
+    text-align: center;
+    font-size: 30px; }
+  .map-section .map-address {
+    margin-bottom: 0; }
+  .map-section .map-hours {
+    margin-left: 0; }
 
 .map {
   width: 100%; }

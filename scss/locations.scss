@@ -24,6 +24,15 @@ html, body {
   .map-title {
     font-family: $accentfont;
     text-align: center;
+    font-size: 30px;
+  }
+
+  .map-address {
+    margin-bottom: 0;
+  }
+
+  .map-hours {
+    margin-left: 0;
   }
 }
 .map {
