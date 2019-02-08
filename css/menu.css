@@ -27,6 +27,9 @@
   .menucontainer .menu-item-toppings {
     font-family: "Staatliches", cursive;
     font-size: 40px; }
+  .menucontainer .menu-item-adds-fries {
+    margin-left: 25px;
+    font-size: 18px; }
 
 ul {
   list-style-type: none; }
