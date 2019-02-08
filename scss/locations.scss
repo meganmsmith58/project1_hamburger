@@ -4,6 +4,7 @@ $lightgrey: #BDD3DE;
 $beige: #F0F0DF;
 $orange: #FF8F00;
 $mainfont: 'Krub', sans-serif;
+$accentfont: 'Staatliches', cursive;
 
 html, body {
   width: 100%;
@@ -20,6 +21,10 @@ html, body {
   width: 40%;
   padding: 20px;
 
+  .map-title {
+    font-family: $accentfont;
+    text-align: center;
+  }
 }
 .map {
   width: 100%;
