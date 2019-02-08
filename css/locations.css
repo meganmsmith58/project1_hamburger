@@ -17,7 +17,7 @@ html, body {
   .map-section .map-address {
     margin-bottom: 0; }
   .map-section .map-hours {
-    margin-left: 0; }
+    padding: 0; }
 
 .map {
   width: 100%; }

@@ -32,7 +32,11 @@ html {
     padding: 10px;
   }
   .nav-link:hover {
-    color: purple;
+    color: white;
+    font-size: 20px;
+  }
+  .link-active {
+    font-size: 30px;
   }
 }
 .navback {
