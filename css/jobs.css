@@ -24,7 +24,8 @@
   .middle-job input[type=text] {
     width: 100%;
     border-radius: 5px;
-    margin: 5px; }
+    margin: 5px;
+    border-width: 1px; }
   .middle-job .states {
     margin: 5px;
     width: 100%;
@@ -32,15 +33,19 @@
   .middle-job input[type=email] {
     margin: 5px;
     width: 100%;
-    border-radius: 5px; }
+    border-radius: 5px;
+    border-width: 1px; }
   .middle-job .work-history {
     font-size: 14px;
     margin-left: 8px; }
   .middle-job .multi-text {
     width: 100%;
     margin: 5px;
-    width: 100%;
-    border-radius: 5px; }
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-color: #8E8D8D;
+    border-bottom: #DAD8D8;
+    border-right: #DAD8D8; }
   .middle-job .checkbox-container {
     display: block;
     font-size: 14px;

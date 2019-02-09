@@ -38,19 +38,21 @@ $accentfont: 'Staatliches', cursive;
     width: 100%;
     border-radius: 5px;
     margin: 5px;
-
+    border-width: 1px;
   }
 
   .states {
     margin: 5px;
     width: 100%;
     background-color: #FFFFFF;
+
   }
 
   input[type=email] {
     margin: 5px;
     width: 100%;
     border-radius: 5px;
+    border-width: 1px;
 
   }
   .work-history {
@@ -60,8 +62,11 @@ $accentfont: 'Staatliches', cursive;
   .multi-text {
     width: 100%;
     margin: 5px;
-    width: 100%;
     border-radius: 5px;
+    border-width: 0.5px;
+    border-color: #8E8D8D;
+    border-bottom: #DAD8D8;
+    border-right: #DAD8D8;
   }
   .checkbox-container {
     display: block;
