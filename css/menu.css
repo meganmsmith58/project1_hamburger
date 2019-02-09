@@ -1,12 +1,13 @@
 .menucontainer {
   padding: 20px;
-  margin-left: 20px;
+  margin-left: 30px;
   font-family: "Krub", sans-serif; }
   .menucontainer .menu-item {
     border-bottom: 1px solid #BDD3DE; }
   .menucontainer .menu-item-title {
     font-family: "Staatliches", cursive;
-    font-size: 60px; }
+    font-size: 60px;
+    color: #FF8F00; }
   .menucontainer .menu-item-description {
     color: #3F5866;
     font-family: "Krub", sans-serif;
@@ -20,7 +21,8 @@
     font-size: 20px; }
   .menucontainer .menu-item-toppings {
     font-family: "Staatliches", cursive;
-    font-size: 40px; }
+    font-size: 40px;
+    color: #FF8F00; }
   .menucontainer .menu-item-adds-fries {
     margin-left: 25px;
     font-size: 18px; }

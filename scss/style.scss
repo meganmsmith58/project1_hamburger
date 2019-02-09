@@ -106,14 +106,40 @@ html {
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 40px;
+  font-family: $mainfont;
+  color: $darkgrey;
+
+  .modal-header {
+    border-bottom: none;
+  }
+  .modal-footer {
+    border-top: none;
+  }
+  .subscribebtn {
+    background-color: $medgrey;
+    border: none;
+  }
+  .subscribebtn:hover {
+    background-color: $orange;
+  }
+
+  .closebtn {
+    background-color: $lightgrey;
+    border: none;
+  }
+  .closebtn:hover {
+    background-color: $medgrey;
+  }
+
+  .subbtn {
+    background-color: $orange;
+    border: none;
+  }
+  .subbtn:hover {
+    background-color: $medgrey;
+  }
 }
-.subscribebtn {
-  background-color: $medgrey;
-  border: none;
-}
-.subscribebtn:hover {
-  background-color: $orange;
-}
+
 
 @import 'menu';
 @import 'locations';

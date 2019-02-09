@@ -70,24 +70,39 @@ html {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  margin-top: 40px; }
-
-.subscribebtn {
-  background-color: #3F5866;
-  border: none; }
-
-.subscribebtn:hover {
-  background-color: #FF8F00; }
+  margin-top: 40px;
+  font-family: "Krub", sans-serif;
+  color: #2B3A42; }
+  .bottom .modal-header {
+    border-bottom: none; }
+  .bottom .modal-footer {
+    border-top: none; }
+  .bottom .subscribebtn {
+    background-color: #3F5866;
+    border: none; }
+  .bottom .subscribebtn:hover {
+    background-color: #FF8F00; }
+  .bottom .closebtn {
+    background-color: #BDD3DE;
+    border: none; }
+  .bottom .closebtn:hover {
+    background-color: #3F5866; }
+  .bottom .subbtn {
+    background-color: #FF8F00;
+    border: none; }
+  .bottom .subbtn:hover {
+    background-color: #3F5866; }
 
 .menucontainer {
   padding: 20px;
-  margin-left: 20px;
+  margin-left: 30px;
   font-family: "Krub", sans-serif; }
   .menucontainer .menu-item {
     border-bottom: 1px solid #BDD3DE; }
   .menucontainer .menu-item-title {
     font-family: "Staatliches", cursive;
-    font-size: 60px; }
+    font-size: 60px;
+    color: #FF8F00; }
   .menucontainer .menu-item-description {
     color: #3F5866;
     font-family: "Krub", sans-serif;
@@ -101,7 +116,8 @@ html {
     font-size: 20px; }
   .menucontainer .menu-item-toppings {
     font-family: "Staatliches", cursive;
-    font-size: 40px; }
+    font-size: 40px;
+    color: #FF8F00; }
   .menucontainer .menu-item-adds-fries {
     margin-left: 25px;
     font-size: 18px; }

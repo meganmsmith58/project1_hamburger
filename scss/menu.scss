@@ -11,7 +11,7 @@ $accentfont: 'Staatliches', cursive;
 
 .menucontainer {
   padding: 20px;
-  margin-left: 20px;
+  margin-left: 30px;
   font-family: $mainfont;
 
   .menu-item {
@@ -23,6 +23,7 @@ $accentfont: 'Staatliches', cursive;
   .menu-item-title {
     font-family: $accentfont;
     font-size: 60px;
+    color: $orange;
 
   }
 
@@ -31,6 +32,7 @@ $accentfont: 'Staatliches', cursive;
     font-family: $mainfont;
     font-size: 18px;
     margin-left: 20px;
+
   }
 
   .menu-item-name {
@@ -48,6 +50,7 @@ $accentfont: 'Staatliches', cursive;
   .menu-item-toppings {
     font-family: $accentfont;
     font-size: 40px;
+    color: $orange;
   }
 
   .menu-item-adds-fries {
