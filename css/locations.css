@@ -9,11 +9,13 @@ html, body {
 
 .map-section {
   width: 40%;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 20px; }
   .map-section .map-title {
     font-family: "Staatliches", cursive;
     text-align: center;
-    font-size: 30px; }
+    font-size: 40px;
+    color: #F1A536; }
   .map-section .map-address {
     margin-bottom: 0; }
   .map-section .map-hours {

@@ -21,9 +21,13 @@ html {
   width: 100%; }
   .navbar .fab {
     padding: 10px; }
+  .navbar .social-icon {
+    color: #3F5866; }
+  .navbar .social-icon:hover {
+    color: #F1A536; }
   .navbar .nav-link:hover {
-    color: white;
-    font-size: 18px; }
+    font-size: 18px;
+    color: #F1A536; }
   .navbar .active {
     font-size: 20px;
     font-family: "Staatliches", cursive; }
@@ -63,7 +67,7 @@ html {
     color: #2B3A42;
     font-weight: bold; }
   .content-container .p3 {
-    color: #FF8F00;
+    color: #F1A536;
     font-weight: bold; }
 
 .bottom {
@@ -81,14 +85,14 @@ html {
     background-color: #3F5866;
     border: none; }
   .bottom .subscribebtn:hover {
-    background-color: #FF8F00; }
+    background-color: #F1A536; }
   .bottom .closebtn {
     background-color: #BDD3DE;
     border: none; }
   .bottom .closebtn:hover {
     background-color: #3F5866; }
   .bottom .subbtn {
-    background-color: #FF8F00;
+    background-color: #F1A536;
     border: none; }
   .bottom .subbtn:hover {
     background-color: #3F5866; }
@@ -102,7 +106,7 @@ html {
   .menucontainer .menu-item-title {
     font-family: "Staatliches", cursive;
     font-size: 60px;
-    color: #FF8F00; }
+    color: #F1A536; }
   .menucontainer .menu-item-description {
     color: #3F5866;
     font-family: "Krub", sans-serif;
@@ -117,7 +121,7 @@ html {
   .menucontainer .menu-item-toppings {
     font-family: "Staatliches", cursive;
     font-size: 40px;
-    color: #FF8F00; }
+    color: #F1A536; }
   .menucontainer .menu-item-adds-fries {
     margin-left: 25px;
     font-size: 18px; }
@@ -136,11 +140,13 @@ html, body {
 
 .map-section {
   width: 40%;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 20px; }
   .map-section .map-title {
     font-family: "Staatliches", cursive;
     text-align: center;
-    font-size: 30px; }
+    font-size: 40px;
+    color: #F1A536; }
   .map-section .map-address {
     margin-bottom: 0; }
   .map-section .map-hours {
@@ -189,6 +195,11 @@ html, body {
   .middle-job .work-history {
     font-size: 14px;
     margin-left: 8px; }
+  .middle-job .multi-text {
+    width: 100%;
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px; }
   .middle-job .checkbox-container {
     display: block;
     font-size: 14px;
@@ -202,7 +213,7 @@ html, body {
     background-color: #BDD3DE;
     border-radius: 5px; }
   .middle-job .submitbtn:hover {
-    background-color: #FF8F00; }
+    background-color: #F1A536; }
 
 .middle-faq {
   font-family: "Krub", sans-serif; }
@@ -214,7 +225,7 @@ html, body {
   color: #2B3A42; }
 
 .btn-link:hover {
-  color: #FF8F00;
+  color: #F1A536;
   text-decoration: none; }
 
 .video {

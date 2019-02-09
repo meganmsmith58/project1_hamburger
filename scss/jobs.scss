@@ -2,7 +2,7 @@ $darkgrey: #2B3A42;
 $medgrey: #3F5866;
 $lightgrey: #BDD3DE;
 $beige: #F0F0DF;
-$orange: #FF8F00;
+$orange: #F1A536;
 $mainfont: 'Krub', sans-serif;
 $accentfont: 'Staatliches', cursive;
 
@@ -57,6 +57,12 @@ $accentfont: 'Staatliches', cursive;
   .work-history {
     font-size: 14px;
     margin-left: 8px;
+  }
+  .multi-text {
+    width: 100%;
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
   }
   .checkbox-container {
     display: block;

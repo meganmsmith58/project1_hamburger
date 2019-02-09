@@ -2,7 +2,7 @@ $darkgrey: #2B3A42;
 $medgrey: #3F5866;
 $lightgrey: #BDD3DE;
 $beige: #F0F0DF;
-$orange: #FF8F00;
+$orange: #F1A536;
 $mainfont: 'Krub', sans-serif;
 $accentfont: 'Staatliches', cursive;
 
@@ -22,11 +22,13 @@ html, body {
 .map-section {
   width: 40%;
   padding: 20px;
+  margin-top: 20px;
 
   .map-title {
     font-family: $accentfont;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    color: $orange;
   }
 
   .map-address {

@@ -38,6 +38,11 @@
   .middle-job .work-history {
     font-size: 14px;
     margin-left: 8px; }
+  .middle-job .multi-text {
+    width: 100%;
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px; }
   .middle-job .checkbox-container {
     display: block;
     font-size: 14px;
@@ -51,4 +56,4 @@
     background-color: #BDD3DE;
     border-radius: 5px; }
   .middle-job .submitbtn:hover {
-    background-color: #FF8F00; }
+    background-color: #F1A536; }
