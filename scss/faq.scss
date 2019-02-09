@@ -6,3 +6,26 @@ $orange: #FF8F00;
 $mainfont: 'Krub', sans-serif;
 $accentfont: 'Staatliches', cursive;
 
+
+
+.middle-faq {
+  font-family: $mainfont;
+}
+
+.card-header {
+  background-color: #F7F7F7;
+}
+
+.btn-link {
+  color: $darkgrey;
+}
+.btn-link:hover {
+  color: $orange;
+  text-decoration: none;
+}
+
+
+.video {
+  margin-top: 20px;
+}
+

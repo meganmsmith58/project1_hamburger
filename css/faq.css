@@ -1,0 +1,15 @@
+.middle-faq {
+  font-family: "Krub", sans-serif; }
+
+.card-header {
+  background-color: #F7F7F7; }
+
+.btn-link {
+  color: #2B3A42; }
+
+.btn-link:hover {
+  color: #FF8F00;
+  text-decoration: none; }
+
+.video {
+  margin-top: 20px; }
