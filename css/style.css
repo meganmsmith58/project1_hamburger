@@ -181,7 +181,6 @@ html, body {
   .middle-job input[type=text] {
     width: 100%;
     border-radius: 5px;
-    border-style: 1px solid #BDD3DE;
     margin: 5px; }
   .middle-job .states {
     margin: 5px;
@@ -190,8 +189,7 @@ html, body {
   .middle-job input[type=email] {
     margin: 5px;
     width: 100%;
-    border-radius: 5px;
-    border-style: 1px solid #BDD3DE; }
+    border-radius: 5px; }
   .middle-job .work-history {
     font-size: 14px;
     margin-left: 8px; }
